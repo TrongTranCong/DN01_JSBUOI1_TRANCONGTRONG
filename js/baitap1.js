@@ -10,11 +10,8 @@
  * B3: Xây dựng công thức tính tiền lương ngày làm
  * Lương 1 ngày * số ngày làm = tổng tiền lương 
  * Chuyển sang lập trình:
- *  = edge1 * edge1 + edge2 * edge2 
- * B4: Lấy độ dài từ công thức
- * lấy căn bậc hai của cạnh huyền
- * edge3 = math.sqrt(edge3 * edge3);
- * B5: hiện kq lên console  
+ * sumSal = salDay * day
+ * B4: hiện kết quả lên console  
  * 
  * Khối 3: Output
  * Tiền lương ngày làm
