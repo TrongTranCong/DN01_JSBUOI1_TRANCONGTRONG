@@ -10,11 +10,9 @@
  * B3: Xây dựng công thức tính trung bình
  * average = (num1+num2+num3+num4+num5)/5
  * Chuyển sang lập trình:
- * avg = sum()
- * B4: Lấy độ dài từ công thức
- * lấy căn bậc hai của cạnh huyền
- * edge3 = math.sqrt(edge3 * edge3);
- * B5: hiện kq lên console  
+ * var sum = (num1+num2+num3+num4+num5)
+ * average = sum /5
+ * B4: hiện kết quả lên console  
  * 
  * Khối 3: Output
  * average(num1,..num5)
