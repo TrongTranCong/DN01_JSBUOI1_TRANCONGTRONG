@@ -9,11 +9,11 @@
  * B2: Tạo biến chứa số tiền
  * B3: Xây dựng công thức tính số tiền quy đổi
  * amout 1$ = 23500 VND
+ * 
+ * amountExchange = amountNeeded * amount 1$
  * Chuyển sang lập trình:
  * amount = amount 
- * B4: Lấy độ dài từ công thức
- * lấy căn bậc hai của cạnh huyền
- * edge3 = math.sqrt(edge3 * edge3);
+ * 
  * B5: hiện kq lên console  
  * 
  * Khối 3: Output
