@@ -17,8 +17,8 @@
  * Khối 3: Output
  * average(num1,..num5)
  * console.log(average)
- */
-
+ *
+*/
 // Tạo và gán giá trị
 var num1 = 10;
 var num2 = 20;
@@ -31,4 +31,4 @@ var average = 0;
 // Công thức tính trung bình
 sum = num1 + num2 + num3 + num4 + num5
 average = sum / 5;
-console.log("Giá trị trung bình của 5 số:" + average)
+console.log("Giá trị trung bình của 5 số:" + average);
