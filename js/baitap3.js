@@ -21,9 +21,10 @@
  * amountExchange
  */
 //  Tạo và gán giá trị số tiền
-var amount1$ = 23500;
+var rate1$ = 23500;
+console.log(rate1$);
 var amount = 20;
 var amountExchange = 0;
 // Viết công thức tính toán
-var amountExchange = amount1$ * amount;
+var amountExchange = rate1$ * amount;
 console.log("Số tiền sau quy đổi:"+ amountExchange);
