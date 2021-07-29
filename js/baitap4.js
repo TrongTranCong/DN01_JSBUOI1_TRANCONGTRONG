@@ -18,8 +18,10 @@
  * B5: hiện kq lên console  
  * 
  * Khối 3: Output
- * Diện tích hình chữ nhật area
- * Chu vi hình chữ nhật perimeter
+ * Diện tích hình chữ nhật 
+ * var area
+ * Chu vi hình chữ nhật
+ * var perimeter
  
  */
 // Tạo và gán giá trị 
@@ -27,5 +29,5 @@ var edge1 = 5;
 var edge2 = 4;
 var area = edge1 * edge2;
 console.log("Diện tích hình chữ nhật:" + area);
-var perimeter = (edge1 + edge2) *2;
+var perimeter = (edge1 + edge2) * 2;
 console.log("Chu vi hình chữ nhật:" + perimeter);
