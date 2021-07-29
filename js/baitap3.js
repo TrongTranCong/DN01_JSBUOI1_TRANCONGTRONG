@@ -1,29 +1,29 @@
 /**
  * Khối 1: Input
- * 1 $ = 23500
+ * rate1$ = 23500
  * Số tiền($)
- * amount, amount1
+ * var amount, var amountExchange
  * 
  * Khối 2: Các bước xử lý
  * B1: Tạo và gán giá trị số tiền
  * B2: Tạo biến chứa số tiền
  * B3: Xây dựng công thức tính số tiền quy đổi
- * amout 1$ = 23500 VND
+ * rate 1$ = 23500 VND
  * 
- * amountExchange = amountNeeded * amount 1$
+ * amountExchange = amount * rate 1$
  * Chuyển sang lập trình:
- * amount = amount 
  * 
- * B5: hiện kq lên console  
+ * 
+ * B4: hiện kq lên console  
  * 
  * Khối 3: Output
  * tính số tiền sau quy đổi
- * 
+ * amountExchange
  */
 //  Tạo và gán giá trị số tiền
-var amountOfDollar = 23500;
-var amountDollar = 20;
-var amountExchangeVND = 0;
+var amount1$ = 23500;
+var amount = 20;
+var amountExchange = 0;
 // Viết công thức tính toán
-var amountExchangeVND = amountOfDollar * amountDollar;
-console.log("Số tiền sau quy đổi:"+ amountExchangeVND);
+var amountExchange = amount1$ * amount;
+console.log("Số tiền sau quy đổi:"+ amountExchange);
