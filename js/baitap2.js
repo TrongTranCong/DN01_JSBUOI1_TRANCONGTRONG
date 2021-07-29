@@ -1,7 +1,7 @@
 /**
  * Khối 1: Input
  * số thực
- * num1, num2, num3, num4, num5
+ * var num1, var num2, var num3, var num4, var num5
  * 
  * 
  * Khối 2: Các bước xử lý
@@ -30,5 +30,6 @@ var average = 0;
 
 // Công thức tính trung bình
 sum = num1 + num2 + num3 + num4 + num5
+console.log("Tổng của 5 số:" + sum);
 average = sum / 5;
 console.log("Giá trị trung bình của 5 số:" + average);
